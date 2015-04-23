@@ -8,7 +8,8 @@ get ('/') do
   erb(:index)
 end
 
-get('/result') do
-  @allergies = params.fetch('score').to_i.allergic()
-  erb(:result)
+get('/allergies') do
+  @score = params.fetch('score').to_i
+  @allergies = @score.allergic()
+  erb(:allergies)
 end
