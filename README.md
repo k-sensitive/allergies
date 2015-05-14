@@ -4,8 +4,9 @@ By: Kim Dang
 
 An allergy score is a single number that tells what someone is allergic to. The scores for each allergen are:
 
-allergen     score
-eggs         1
+| allergen  |   score   |
+|-----------|-----------|
+| eggs      |   1       |
 peanuts      2
 shellfish    4
 strawberries 8
